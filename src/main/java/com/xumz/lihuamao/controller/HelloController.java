@@ -19,7 +19,7 @@ public class HelloController {
     @GetMapping("/hello")
     public AjaxResult<String> hello(){
         System.out.println("----------");
-        return new AjaxResult("msg", "good");
+        return new AjaxResult("msg", "test jenkins");
 
     }
 
